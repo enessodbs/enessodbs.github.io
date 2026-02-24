@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Matrix Transition Canvas Overlay -->
+    <canvas id="matrixCanvas" class="matrix-overlay"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">ENES ODABAS</div>
+        <ul class="nav-links">
+            <li><a href="#" class="nav-link active" data-target="about">About Me</a></li>
+            <li><a href="#" class="nav-link" data-target="portfolio">Portfolio</a></li>
+            <li><a href="#" class="nav-link" data-target="cv">CV</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="content-container">
+        
+        <!-- About Section -->
+        <section id="about" class="page-section active">
+            <div class="hero">
+                <h1 class="glitch-text" data-text="Hello, I'm a Developer.">Hello, I am Enes Odabaş.</h1>
+                <p class="subtitle">Building exceptional digital experiences.</p>
+                <div class="about-content">
+                    <p>I am a passionate developer specializing in building dynamic and beautiful web applications. I love turning complex problems into simple, beautiful, and intuitive designs. I enjoy adding to my experience by developing new sites and applications.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies or contributing to open-source projects.</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/enessodbs" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/enessodbs/" target="_blank" class="social-btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="mailto:enesodabas5234@gmail.com" class="social-btn"><i class="fas fa-envelope"></i> Email</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="page-section">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-tag">HTML5</div>
+                <div class="skill-tag">CSS3 / SCSS</div>
+                <div class="skill-tag">JavaScript (ES6+)</div>
+                <div class="skill-tag">C#</div>
+                <div class="skill-tag">.Net</div>
+                <div class="skill-tag">Flutter & Dart</div>
+                <div class="skill-tag">UI/UX Design</div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Emlak Konut Çekmeköy</h3>
+                        <p>Developed a responsive, high-performance single-page real estate showcase featuring interactive UI elements and custom JavaScript animations to enhance user engagement.</p>
+                        <div class="project-tech">
+                            <span>JavaScript</span>
+                            <span>Html</span>
+                            <span>Css</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>flutter_e-commerce_app</h3>
+                        <p>A dynamic Flutter e-commerce application integrated with Firebase and REST APIs, featuring real-time product synchronization, advanced filtering, and secure user authentication.</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image-placeholder">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>fluttter_chat_app</h3>
+                        <p>A real-time chat application built with Flutter and Firebase, featuring secure user authentication, instant messaging, and seamless data synchronization.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Redux</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv" class="page-section">
+            <div class="section-header">
+                <h2>Curriculum Vitae</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="cv-container">
+                <a href="resume.pdf" class="download-btn"><i class="fas fa-download"></i> Download Full Resume</a>
+                
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Software Support Specialist</h3>
+                            <h4>ISOFT | 2026.01 - Present</h4>
+                            <p>Managed end-to-end support for national broadcasters, optimizing SQL queries and deploying Failover Clusters and Elasticsearch to ensure 24/7 system reliability and performance.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Experience 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>IT Specialist</h3>
+                            <h4>Manuka | 2025.02 - 2025.12</h4>
+                            <p>Directed full-scale IT infrastructure by managing VMware ESXi servers, Fortigate firewalls, and Active Directory/O365 environments, while ensuring KVKK/5651 compliance and high-performance network coverage across all corporate and store locations.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Education -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>IT Intern</h3>
+                            <h4>University of Gedik | 2024.06 - 2024.08</h4>
+                            <p>Optimized IT operations by managing Windows 10/365 systems and PaperCut printing solutions, while streamlining server room maintenance and professional AV configurations for corporate environments.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
