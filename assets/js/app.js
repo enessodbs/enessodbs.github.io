@@ -14,10 +14,11 @@ window.defineSiteComponent = function (DCLogic, React) {
     ['Broadcast & Media Systems','L2/L3 Technical Support · Media Asset Management (MAM) · SmartPlay · MediaDeck 7000 · Provys · VSX · BXF']
   ].map(([k,v]) => ({k,v}));
   const CERTS = [
-    {n:'Fortinet Network Security Expert (NSE) 1: Certified Associate', y:'2025', href:'https://training.fortinet.com/pluginfile.php/1/tool_certificate/issues/1761753318/0058635120EO.pdf'},
-    {n:'Practical IT Specialization Training', y:'2025', href:'https://www.udemy.com/certificate/UC-f4855115-abc9-4cb2-aee3-00b84e041e80/'},
+    {n:'Fortinet NSE 2 Certified in Cybersecurity', y:'2026', href:'https://www.credly.com/badges/ceb12bb0-1431-46c0-9d5b-e60888f691b5/linked_in_profile'},
+    {n:'Linux Fundamentals — LearnQuest', y:'2026', href:'https://www.coursera.org/account/accomplishments/verify/KTQRAZNH8LLG'},
+    {n:'Fortinet Certified Fundamentals in Cybersecurity', y:'2025', href:'https://training.fortinet.com/pluginfile.php/1/tool_certificate/issues/1761753318/0058635120EO.pdf'},
     {n:'Cisco Computer Hardware Basics', y:'2025', href:'https://www.credly.com/badges/58101f32-c406-4409-9791-a3e8cdd32b46/public_url'},
-    {n:'Linux Fundamentals — LearnQuest', y:'2026', href:'https://www.coursera.org/account/accomplishments/verify/KTQRAZNH8LLG'}
+    {n:'Practical IT Specialization Training', y:'2025', href:'https://www.udemy.com/certificate/UC-f4855115-abc9-4cb2-aee3-00b84e041e80/'}
   ];
   const PROJ_BASE = [
     {slot:'proj-ledgerly', name:'Mizan ERP', brand:'Mizan', icon:'scales', tags:['.NET','Flutter','PostgreSQL']},
