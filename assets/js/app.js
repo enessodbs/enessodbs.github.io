@@ -16,7 +16,7 @@ window.defineSiteComponent = function (DCLogic, React) {
   const CERTS = [
     {n:'Fortinet NSE 2 Certified in Cybersecurity', y:'2026', href:'https://www.credly.com/badges/ceb12bb0-1431-46c0-9d5b-e60888f691b5/linked_in_profile'},
     {n:'Linux Fundamentals — LearnQuest', y:'2026', href:'https://www.coursera.org/account/accomplishments/verify/KTQRAZNH8LLG'},
-    {n:'Fortinet Certified Fundamentals in Cybersecurity', y:'2025', href:'https://training.fortinet.com/pluginfile.php/1/tool_certificate/issues/1761753318/0058635120EO.pdf'},
+    {n:'Fortinet NSE 1 Certified in Cybersecurity', y:'2025', href:'https://www.credly.com/badges/1038c4ca-c369-409a-83c8-d97c6886e190/linked_in_profile'},
     {n:'Cisco Computer Hardware Basics', y:'2025', href:'https://www.credly.com/badges/58101f32-c406-4409-9791-a3e8cdd32b46/public_url'},
     {n:'Practical IT Specialization Training', y:'2025', href:'https://www.udemy.com/certificate/UC-f4855115-abc9-4cb2-aee3-00b84e041e80/'}
   ];
